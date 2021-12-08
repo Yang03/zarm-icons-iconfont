@@ -1,0 +1,29 @@
+{
+  "name": "zarm-icons-iconfont",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "gulp build",
+    "installtool": "curl -L https://raw.githubusercontent.com/cognitom/gulp-sketch/master/install-sketchtool.sh | sudo sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yang03/zarm-icons-iconfont.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Yang03/zarm-icons-iconfont/issues"
+  },
+  "homepage": "https://github.com/Yang03/zarm-icons-iconfont#readme",
+  "dependencies": {
+    "gulp": "^4.0.2",
+    "gulp-consolidate": "^0.2.0",
+    "gulp-iconfont": "^11.0.0",
+    "gulp-rename": "^2.0.0",
+    "gulp-sketch": "^1.0.5",
+    "lodash": "^4.17.21"
+  }
+}
