@@ -6,6 +6,10 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "gulp build",
+    "build-lib": "babel src --out-dir lib",
+    "build-css": "gulp sass && gulp css && gulp copyFont",
+    "storybook": "start-storybook -p 9001 -c .storybook",
+    "build-storybook": "build-storybook -s .storybook -o doc",
     "installtool": "curl -L https://raw.githubusercontent.com/cognitom/gulp-sketch/master/install-sketchtool.sh | sudo sh"
   },
   "repository": {
@@ -19,11 +23,41 @@
   },
   "homepage": "https://github.com/Yang03/zarm-icons-iconfont#readme",
   "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.5.5",
+    "@babel/core": "^7.4.5",
+    "@babel/plugin-proposal-class-properties": "^7.4.4",
+    "@babel/plugin-transform-runtime": "^7.4.4",
+    "@babel/preset-env": "^7.4.5",
+    "@babel/preset-react": "^7.0.0",
+    "@babel/runtime": "^7.5.5",
+    "@storybook/addon-postcss": "^2.0.0",
+    "@storybook/builder-webpack5": "^6.3.4",
+    "@storybook/react": "^6.3.4",
     "gulp": "^4.0.2",
     "gulp-consolidate": "^0.2.0",
     "gulp-iconfont": "^11.0.0",
     "gulp-rename": "^2.0.0",
     "gulp-sketch": "^1.0.5",
-    "lodash": "^4.17.21"
+    "lodash": "^4.17.21",
+    "@storybook/addon-info": "^5.3.21",
+    "@storybook/manager-webpack5": "^6.4.9",
+    "autoprefixer": "^7",
+    "babel-plugin-import": "^1.13.3",
+    "css-loader": "^6.5.1",
+    "gulp-copy": "^4.0.1",
+    "gulp-dart-sass": "^1.0.2",
+    "postcss": "^7",
+    "postcss-flexbugs-fixes": "^4",
+    "postcss-loader": "^6.2.1",
+    "postcss-scss": "^4.0.2",
+    "sass": "^1.44.0",
+    "sass-loader": "^12.4.0",
+    "style-loader": "^3.3.1",
+    "through2": "^4.0.2",
+    "webpack": "^5.65.0"
   }
 }

@@ -2,11 +2,11 @@
 
 @font-face {
     font-family: "zaicons";
-    src: url('../fonts/zaicons.eot');
-    src: url('../fonts/zaicons.eot?#iefix') format('embedded-opentype'),
-    url('../fonts/zaicons.woff') format('woff'),
-    url('../fonts/zaicons.ttf') format('truetype'),
-    url('../fonts/zaicons.svg#zaicons') format('svg');
+    src: url('./fonts/zaicons.eot');
+    src: url('./fonts/zaicons.eot?#iefix') format('embedded-opentype'),
+    url('./fonts/zaicons.woff') format('woff'),
+    url('./fonts/zaicons.ttf') format('truetype'),
+    url('./fonts/zaicons.svg#zaicons') format('svg');
     font-weight: normal;
     font-style: normal;
 }
@@ -40,22 +40,22 @@
 .icon-arrow-down:before {
     content: "\EA01";
 }
-.icon-arrow-left:before {
+.icon-arrow-right:before {
     content: "\EA02";
 }
-.icon-arrow-right:before {
+.icon-close-circle:before {
     content: "\EA03";
 }
-.icon-close-circle:before {
+.icon-arrow-left:before {
     content: "\EA04";
 }
-.icon-close:before {
+.icon-arrow-up:before {
     content: "\EA05";
 }
-.icon-close-circle-fill:before {
+.icon-close:before {
     content: "\EA06";
 }
-.icon-arrow-up:before {
+.icon-close-circle-fill:before {
     content: "\EA07";
 }
 .icon-delete-key:before {
@@ -88,31 +88,31 @@
 .icon-search:before {
     content: "\EA11";
 }
-.icon-star-fill:before {
+.icon-star:before {
     content: "\EA12";
 }
-.icon-star:before {
+.icon-success-circle:before {
     content: "\EA13";
 }
-.icon-success-circle:before {
+.icon-star-fill:before {
     content: "\EA14";
 }
-.icon-success:before {
+.icon-waiting-circle-fill:before {
     content: "\EA15";
 }
 .icon-volume:before {
     content: "\EA16";
 }
-.icon-waiting-circle-fill:before {
+.icon-waiting-circle:before {
     content: "\EA17";
 }
-.icon-waiting-circle:before {
+.icon-waiting:before {
     content: "\EA18";
 }
-.icon-waiting:before {
+.icon-warning-circle:before {
     content: "\EA19";
 }
-.icon-warning-circle:before {
+.icon-success:before {
     content: "\EA1A";
 }
 .icon-warning:before {
